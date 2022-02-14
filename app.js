@@ -16,3 +16,5 @@ const iconNameToSizeMap = {
     'partly-cloudy': {width: 230, height:209},
     rainy: { width: 160, height: 222},
 }
+
+let day = daysOfWeekMap[3];

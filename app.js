@@ -18,3 +18,4 @@ const iconNameToSizeMap = {
 }
 
 let day = daysOfWeekMap[3];
+let day2 = daysOfWeekMap[4];

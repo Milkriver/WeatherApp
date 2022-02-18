@@ -17,7 +17,8 @@ const iconNameToSizeMap = {
     rainy: { width: 160, height: 222},
 }
 
-const date = new Date();
-const day = date.getDay();
+const today = new Date();
+const day = today.getDay();
+const date = today.getDate();
 let weekDay = daysOfWeekMap[day];
 

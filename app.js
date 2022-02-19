@@ -20,5 +20,6 @@ const iconNameToSizeMap = {
 const today = new Date();
 const day = today.getDay();
 const date = today.getDate();
+const year = today.getFullYear();
 let weekDay = daysOfWeekMap[day];
 

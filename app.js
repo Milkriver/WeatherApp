@@ -21,5 +21,6 @@ const today = new Date();
 const day = today.getDay();
 const date = today.getDate();
 const year = today.getFullYear();
+const month = today.getMonth();
 let weekDay = daysOfWeekMap[day];
 

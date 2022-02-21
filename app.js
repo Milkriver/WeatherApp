@@ -24,3 +24,4 @@ const year = today.getFullYear();
 const month = today.getMonth();
 let weekDay = daysOfWeekMap[day];
 
+let days = document.getElementsByClassName('.day-of-week');

@@ -25,3 +25,4 @@ const month = today.getMonth();
 let weekDay = daysOfWeekMap[day];
 
 let days = document.getElementsByClassName('.day-of-week');
+let weather = document.getElementsByClassName('.weather');

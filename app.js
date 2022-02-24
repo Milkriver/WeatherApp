@@ -27,3 +27,6 @@ let weekDay = daysOfWeekMap[day];
 let days = document.getElementsByClassName('.day-of-week');
 let weather = document.getElementsByClassName('.weather');
 let temperature = document.getElementsByClassName('.temperature');
+for (let key in daysOfWeekMap) {
+    console.log( daysOfWeekMap[key] ); 
+  }

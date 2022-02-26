@@ -35,5 +35,8 @@ for (let key in daysOfWeekMap) {
 let a = Array.from(document.querySelectorAll('.day-of-week'));
 for (let index = 0; index < a.length; index++) {
     console.log(a[index].innerHTML=daysOfWeekMap[day]);  
+    for (let index = 0; index < daysOfWeekMap.length; index++) {
+        console.log(daysOfWeekMap[index]);
+    }
 }
 

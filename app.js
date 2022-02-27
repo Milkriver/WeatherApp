@@ -28,15 +28,13 @@ let days = document.querySelectorAll('.day-of-week')[0];
 let weather = document.getElementsByClassName('.weather');
 let temperature = document.getElementsByClassName('.temperature');
 for (let key in daysOfWeekMap) {
-    // console.log(daysOfWeekMap[key]);
-    // days.innerHTML = value;
+
 
 }
 let a = Array.from(document.querySelectorAll('.day-of-week'));
 for (let index = 0; index < a.length; index++) {
-    console.log(a[index].innerHTML=daysOfWeekMap[day]);  
     for (let index = 0; index < daysOfWeekMap.length; index++) {
-        console.log(daysOfWeekMap[index]);
+        console.log(a[index].innerHTML=daysOfWeekMap[day]);  
     }
 }
 

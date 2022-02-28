@@ -28,9 +28,12 @@ let days = document.querySelectorAll('.day-of-week')[0];
 let weather = document.getElementsByClassName('.weather');
 let temperature = document.getElementsByClassName('.temperature');
 let a = Array.from(document.querySelectorAll('.day-of-week'));
+let dayCounter = day
 for (let index = 0; index < a.length; index++) {
     console.log(index);
     console.log(a[index]);
-    a[index].innerHTML=daysOfWeekMap[index]
+
+    a[index].innerHTML=daysOfWeekMap[dayCounter % 7]
+    dayCounter++
 }
 
